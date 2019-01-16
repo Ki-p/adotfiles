@@ -1,0 +1,10 @@
+! rofi configs
+rofi.color-enabled: true
+rofi.color-window: argb:D9fbf2f9, argb:D9fbf2f9, argb:D9fbf2f9
+rofi.color-normal: argb:00000000, #D656A7, argb:00000000, argb:00000000, #a795c1
+rofi.color-active: argb:00000000, #45372E, argb:00000000, argb:00000000, #a795c1
+rofi.color-urgent: argb:00000000, #77FB88, argb:00000000, argb:00000000, #a795c1
+rofi.modi: run,drun,window
+rofi.separator-style: none
+rofi.hide-scrollbar: true
+

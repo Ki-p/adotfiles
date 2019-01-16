@@ -1,0 +1,50 @@
+##########################################################################################
+#																					     #
+#                          _                 _                               __ _        #
+#                         | |               | |                             / _(_)       #
+#  _ __   _____      _____| |__   ___   __ _| |_   ______    ___ ___  _ __ | |_ _  __ _  #
+# | '_ \ / _ \ \ /\ / / __| '_ \ / _ \ / _` | __| |______|  / __/ _ \| '_ \|  _| |/ _` | #
+# | | | |  __/\ V  V /\__ \ |_) | (_) | (_| | |_           | (_| (_) | | | | | | | (_| | #
+# |_| |_|\___| \_/\_/ |___/_.__/ \___/ \__,_|\__|           \___\___/|_| |_|_| |_|\__, | #
+#                                                                                  __/ | #
+#                                                                                 |___/  #
+#																						 #
+##########################################################################################
+
+
+## ------ ##+ basic configs +## ------ ##
+
+
+browser "/usr/bin/firefox"
+external-url-viewer "urlscan -c"
+auto-reload yes
+save-path ~/.config/newsboat/saved_articles
+
+
+## ------ ##+ keybinds +## ------ ##
+
+
+bind-key j next
+bind-key k prev
+bind-key l open
+bind-key J next-feed
+bind-key K prev-feed
+bind-key j down article
+bind-key k up article
+bind-key J next article
+bind-key K prev article
+bind-key U show-urls
+
+
+## ------ ##+ macros +## ------ ##
+
+# note: macro default key is ,
+
+# play with mpv
+macro m set browser "i3 exec mpv %u"; open-in-browser ; set browser "w3m %u"
+
+# read saved articles
+#macro s set browser "ranger ~/.newsbeuter/saved_articles"; open-in-browser ; set browser w3m
+
+
+

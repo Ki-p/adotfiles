@@ -1,0 +1,129 @@
+######################################################################
+# 																	 #
+#      _                 _                               __ _        #
+#     | |               | |                             / _(_)       #
+#   __| |_   _ _ __  ___| |_   ______    ___ ___  _ __ | |_ _  __ _  #
+#  / _` | | | | '_ \/ __| __| |______|  / __/ _ \| '_ \|  _| |/ _` | #
+# | (_| | |_| | | | \__ \ |_           | (_| (_) | | | | | | | (_| | #
+#  \__,_|\__,_|_| |_|___/\__|           \___\___/|_| |_|_| |_|\__, | #
+#                                                              __/ | #
+#                                                             |___/  #
+#																	 #
+######################################################################
+
+
+[global]
+
+## ----- ##+ basic configs +## ------ ##    
+    
+font = Terminus 8
+    
+allow_markup = yes
+
+
+## ------ ##+ notification message +## ------ ##
+
+    
+format = "<b>%s</b>\n%b"
+    
+
+sort = no
+    
+indicate_hidden = yes
+    
+alignment = left
+
+bounce_freq = 0
+    
+show_age_threshold = -1
+    
+word_wrap = yes
+    
+ignore_newline = no
+
+idle_threshold = 120
+      
+follow = mouse
+    
+sticky_history = yes
+    
+history_length = 20
+    
+show_indicators = yes
+        
+startup_notification = false
+    
+dmenu = /usr/bin/dmenu -p dunst:
+    
+browser = /usr/bin/firefox -new-tab
+
+icon_position = off
+
+icon_folders = /usr/share/icons/gnome/16x16/status/:/usr/share/icons/gnome/16x16/devices/
+
+    
+## ------ ##+ notification window geometry +## ------ ##
+
+geometry = "250x50-30+26"
+    
+shrink = no
+    
+transparency = 10
+
+monitor = 0
+    
+line_height = 4
+    
+separator_height = 0
+    
+padding = 16
+    
+horizontal_padding = 24
+    
+separator_color = frame
+    
+[frame]
+    width = 2
+    color = "#77FB88"
+
+
+## ------ ##+ shortcuts +## ------ ##
+
+
+[shortcuts]
+
+    # Shortcuts are specified as [modifier+][modifier+]...key
+    # Available modifiers are "ctrl", "mod1" (the alt-key), "mod2",
+    # "mod3" and "mod4" (windows-key).
+    # Xev might be helpful to find names for keys.
+    
+    # Close notification.
+    close = ctrl+space
+    
+    # Close all notifications.
+    close_all = ctrl+shift+space
+    
+    # Redisplay last message(s).
+    # On the US keyboard layout "grave" is normally above TAB and left
+    # of "1".
+    history = ctrl+grave
+    
+    # Context menu.
+    context = ctrl+shift+period
+
+[urgency_low]
+    # IMPORTANT: colors have to be defined in quotation marks.
+    # Otherwise the "#" and following would be interpreted as a comment.
+    background = "#fbf2f9"
+    foreground = "#D656A7"
+    timeout = 10
+
+[urgency_normal]
+    background = "#fbf2f9"
+    foreground = "#45372E"
+    timeout = 6
+
+[urgency_critical]
+    background = "#fbf2f9"
+    foreground = "#77FB88"
+    timeout = 0

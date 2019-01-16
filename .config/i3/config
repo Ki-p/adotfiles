@@ -1,0 +1,329 @@
+####################################################
+#                                                  #
+#  _ ____                              __ _        #
+# (_)___ \                            / _(_)       #
+#  _  __) |  ______    ___ ___  _ __ | |_ _  __ _  #
+# | ||__ <  |______|  / __/ _ \| '_ \|  _| |/ _` | #
+# | |___) |          | (_| (_) | | | | | | | (_| | #
+# |_|____/            \___\___/|_| |_|_| |_|\__, | #
+#                                            __/ | #
+#                                           |___/  #
+#                                                  #
+####################################################
+
+
+
+## ------ ##+ basic configs +## ------ ##
+
+
+set $mod Mod1
+font pango:Terminus 8
+gaps inner 15
+gaps outer 15
+bindsym --release Print exec scrot -e 'mv $f ~/Pictures/Shots'
+bindsym $mod+F12 exec i3lock -u -c 000000 
+
+# hold to drag floating window with mouse
+floating_modifier $mod
+
+# enter fullscreen mode for the focused container
+bindsym $mod+Shift+f fullscreen toggle
+
+# container layout 
+bindsym $mod+w layout stacking
+bindsym $mod+e layout tabbed
+bindsym $mod+r layout toggle split
+
+# toggle tiling / floating
+bindsym $mod+Shift+space floating toggle
+
+# change focus between tiling / floating windows
+bindsym $mod+space focus mode_toggle
+
+# focus the parent container
+#bindsym $mod+a focus parent
+
+# focus the child container
+#bindsym $mod+d focus child
+
+bindsym $mod+Return exec urxvt
+bindsym $mod+q kill
+
+# exit i3 (logs you out of your X session)
+#bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -b 'Yes, exit i3' 'i3-msg exit'"
+
+# reload config file
+bindsym $mod+Shift+c reload
+# restart i3 
+bindsym $mod+Shift+r restart
+
+# color from pywal
+set_from_resource $bg i3wm.color0 #fbf2f9
+set_from_resource $fg i3wm.color7 #45372E
+set_from_resource $c1 i3wm.color1 #6C2D72
+set_from_resource $c3 i3wm.color3 #77FB88
+set_from_resource $c5 i3wm.color5 #D656A7
+
+
+## ------##+ run on startup +## ------ ##
+
+
+exec_always --no-startup-id compton
+exec --no-startup-id wal -i ~/.config/i3/wallpaper4.png -l
+exec urxvt -e tmuxinator start daily
+exec --no-startup-id unclutter
+
+
+## ------ ##+ program launcher +## ------ ##
+
+
+bindsym $mod+Shift+semicolon exec dmenu_run -nb "$bg" -nf "$fg" -sb "$fg" -sf "$bg"
+bindsym $mod+semicolon exec rofi -lines 12 -padding 18 -width 60 -location 0 -show drun -sidebar-mode -columns 3 -font 'Terminus 8' 
+
+
+## ------ ##+ windows +## ------ ##
+
+
+# window focus
+bindsym $mod+h focus left
+bindsym $mod+j focus down
+bindsym $mod+k focus up
+bindsym $mod+l focus right
+bindsym $mod+Left focus left
+bindsym $mod+Down focus down
+bindsym $mod+Up focus up
+bindsym $mod+Right focus right
+
+# move focused window
+bindsym $mod+Shift+h move left
+bindsym $mod+Shift+j move down
+bindsym $mod+Shift+k move up
+bindsym $mod+Shift+l move right
+bindsym $mod+Shift+Left move left
+bindsym $mod+Shift+Down move down
+bindsym $mod+Shift+Up move up
+bindsym $mod+Shift+Right move right
+
+# split horizontally
+bindsym $mod+b split h
+
+# split vertically
+bindsym $mod+v split v
+
+# window border size
+for_window [class="^.*"] border pixel 2
+
+# window border colors
+# class                 border  backgr. text indicator child_border
+client.focused          $c1     $c1     $bg  $c1       $c1
+client.focused_inactive $bg     $bg     $fg  $c1       $c5
+client.unfocused        $bg     $bg     $fg  $c1       $c5
+client.urgent           $bg     $c3     $fg  $c1       $c3
+client.placeholder      $bg     $bg     $fg  $c1       $bg
+client.background $bg
+
+# window rules
+assign [class=Firefox] 1
+assign [class=URxvt] 2
+assign [class=Thunar|Catfish] 3
+assign [class=Geany] 4
+assign [class=Gimp*|Inkscape] 0
+for_window [class=feh|Lxappearance|mpv|System-config-printer.py|Catfish] floating enable
+for_window [class=mpv] sticky enable
+for_window [class=mpv] resize set 500 280
+for_window [class=mpv] border pixel 0
+for_window [class=mpv] move right 1140 px 
+for_window [class=mpv] move down 621 px
+
+
+## ------ ##+ workspaces +## ------ ##
+
+
+# switch to workspace
+bindsym $mod+1 workspace 1
+bindsym $mod+2 workspace 2
+bindsym $mod+3 workspace 3
+bindsym $mod+4 workspace 4
+bindsym $mod+5 workspace 5
+bindsym $mod+6 workspace 6
+bindsym $mod+7 workspace 7
+bindsym $mod+8 workspace 8
+bindsym $mod+9 workspace 9
+bindsym $mod+0 workspace 10
+
+# move focused container to workspace
+bindsym $mod+Shift+1 move container to workspace 1
+bindsym $mod+Shift+2 move container to workspace 2
+bindsym $mod+Shift+3 move container to workspace 3
+bindsym $mod+Shift+4 move container to workspace 4
+bindsym $mod+Shift+5 move container to workspace 5
+bindsym $mod+Shift+6 move container to workspace 6
+bindsym $mod+Shift+7 move container to workspace 7
+bindsym $mod+Shift+8 move container to workspace 8
+bindsym $mod+Shift+9 move container to workspace 9
+bindsym $mod+Shift+0 move container to workspace 10
+
+
+## ------ ##+ modes +## ------ ##
+
+
+# resize window (you can also use the mouse for that)
+bindsym $mod+s mode "Resize"
+
+mode "Resize" {
+       
+    bindsym h resize grow width 10 px or 10 ppt
+    bindsym j resize shrink height 10 px or 10 ppt
+    bindsym k resize grow height 10 px or 10 ppt
+    bindsym l resize shrink width 10 px or 10 ppt
+
+    # same bindings, but for the arrow keys
+    bindsym Left resize grow width 10 px or 10 ppt
+    bindsym Down resize shrink height 10 px or 10 ppt
+    bindsym Up resize grow height 10 px or 10 ppt
+    bindsym Right resize shrink width 10 px or 10 ppt
+
+    bindsym Return mode "default"
+	bindsym Escape mode "default"
+}
+
+set $mode_gaps Gaps: [o]uter [i]nner [d]efault/none
+set $mode_gaps_outer Outer Gaps: +/-5 [local] | Shift + +/-5 [global]
+set $mode_gaps_inner Inner Gaps: +/-5 [local] | Shift + +/-5 [global]
+set $mode_gaps_d/n Gaps: [d]efault [n]one | Shift + [d]efault Shift + [n]one [global]
+bindsym $mod+d mode "$mode_gaps"
+mode "$mode_gaps" {
+		
+    bindsym o      mode "$mode_gaps_outer"
+    bindsym i      mode "$mode_gaps_inner"
+    bindsym d	mode "$mode_gaps_d/n"	 	
+    		
+    bindsym Return mode "default"
+    bindsym Escape mode "default"
+
+}
+
+mode "$mode_gaps_outer" {
+        bindsym plus  gaps outer current plus 5
+        bindsym minus gaps outer current minus 5
+
+        bindsym Shift+plus  gaps outer all plus 5
+        bindsym Shift+minus gaps outer all minus 5
+
+        bindsym Return mode "$mode_gaps"
+        bindsym Escape mode "default"
+}
+
+mode "$mode_gaps_inner" {
+        bindsym plus  gaps inner current plus 5
+        bindsym minus gaps inner current minus 5
+     
+        bindsym Shift+plus  gaps inner all plus 5
+        bindsym Shift+minus gaps inner all minus 5
+        bindsym Shift+0     gaps inner all set 0
+
+        bindsym Return mode "$mode_gaps"
+        bindsym Escape mode "default"
+}
+
+mode "$mode_gaps_d/n" {
+
+	bindsym d gaps outer current set 15; gaps inner current set 15
+	bindsym n gaps outer current set 0; gaps inner current set 0
+	
+	bindsym Shift+d gaps outer all set 15; gaps inner all set 15
+	bindsym Shift+n gaps outer all set 0; gaps inner all set 0
+	
+	bindsym Return mode "$mode_gaps"
+    bindsym Escape mode "default"
+}	
+	
+set $mode_launch Launch: [f]irefox [n]ewsboat [c]mus [t]ransmission
+bindsym $mod+a mode "$mode_launch"
+
+mode "$mode_launch" {
+    bindsym f exec firefox; mode "default"
+    bindsym n exec urxvt -e newsboat -C ~/.config/newsboat/config -u ~/.config/newsboat/urls; mode "default"
+    bindsym c exec urxvt -e cmus
+	
+    bindsym Escape mode "default"
+    bindsym Return mode "default"
+}
+
+set $mode_log_off Log off: [s]hutdown [r]eboot
+bindsym $mod+f mode "$mode_log_off"
+
+mode "$mode_log_off" {
+    bindsym s exec systemctl poweroff
+    bindsym r exec systemctl reboot
+
+    bindsym Escape mode "default"
+    bindsym Return mode "default"
+}
+
+
+## ------ ##+ bar +## ------ ##
+
+
+# top bar
+bar {
+	i3bar_command i3bar -t
+	colors {
+        background $bg
+		statusline $fg
+        separator $bg
+
+		# colour of border, background, and text
+        focused_workspace	$bg	$bg	$fg
+        active_workspace	$bg	$bg	$c5
+        inactive_workspace	$bg	$bg	$c5
+        urgent_workspace	$bg	$bg	$c3
+}
+	position top
+    status_command i3status -c ~/.config/i3/i3status.conf
+}
+
+# bottom bar
+bar {
+	tray_output none
+	workspace_buttons no
+	i3bar_command i3bar -t
+	colors {
+        background $bg
+		statusline $fg
+        separator $bg
+
+#		# colour of border, background, and text
+#        #focused_workspace	$trp	$trp	$
+#        #active_workspace	$trp	$trp	$c5
+#        #inactive_workspace	$trp	$trp	$c5
+#        #urgent_workspace	$trp	$trp	$c3
+}
+	position bottom
+	status_command i3status -c ~/.config/i3/i3statusb.conf
+}
+
+
+## ------ ##+ function keys +## ------ ##
+
+
+# change volume
+bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume 0 +5% 
+bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume 0 -5% 
+bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute 0 toggle 
+ 
+# chage brightness
+bindsym XF86MonBrightnessUp exec sudo brightnessctl s 20+
+bindsym XF86MonBrightnessDown exec sudo brightnessctl s 20-
+
+# cmus controls
+bindsym XF86AudioPlay exec cmus-remote -p
+bindsym XF86AudioStop exec cmus-remote -s
+bindsym XF86AudioPrev exec cmus-remote -r
+bindsym XF86AudioNext exec cmus-remote -n
+
+
+
+
+
+
