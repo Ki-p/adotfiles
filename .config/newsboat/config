@@ -27,6 +27,7 @@ save-path ~/.config/newsboat/saved_articles
 bind-key j next
 bind-key k prev
 bind-key l open
+bind-key h quit
 bind-key J next-feed
 bind-key K prev-feed
 bind-key j down article

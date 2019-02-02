@@ -17,7 +17,7 @@
 
 
 set $mod Mod1
-font pango:Terminus 8
+font pango:Tamsyn 22.5
 gaps inner 15
 gaps outer 15
 bindsym --release Print exec scrot -e 'mv $f ~/Pictures/Shots'
@@ -58,27 +58,28 @@ bindsym $mod+Shift+c reload
 bindsym $mod+Shift+r restart
 
 # color from pywal
-set_from_resource $bg i3wm.color0 #fbf2f9
-set_from_resource $fg i3wm.color7 #45372E
-set_from_resource $c1 i3wm.color1 #6C2D72
-set_from_resource $c3 i3wm.color3 #77FB88
-set_from_resource $c5 i3wm.color5 #D656A7
-
+set_from_resource $bg i3wm.color0 #fefefe
+set_from_resource $fg i3wm.color7 #0E0606
+set_from_resource $c1 i3wm.color6 #F9D9DB
+set_from_resource $c3 i3wm.color3 #B7BFC9
+set_from_resource $c5 i3wm.color5 #D5CED3
+set $trp #00000000
 
 ## ------##+ run on startup +## ------ ##
 
 
 exec_always --no-startup-id compton
-exec --no-startup-id wal -i ~/.config/i3/wallpaper4.png -l
-exec urxvt -e tmuxinator start daily
 exec --no-startup-id unclutter
+exec --no-startup-id feh --bg-scale .config/i3/wallpaper5.jpeg
+exec urxvt -e tmuxinator start daily
+exec firefox
 
 
 ## ------ ##+ program launcher +## ------ ##
 
 
-bindsym $mod+Shift+semicolon exec dmenu_run -nb "$bg" -nf "$fg" -sb "$fg" -sf "$bg"
-bindsym $mod+semicolon exec rofi -lines 12 -padding 18 -width 60 -location 0 -show drun -sidebar-mode -columns 3 -font 'Terminus 8' 
+bindsym $mod+Shift+semicolon exec dmenu_run -b -fn "Tamsyn-12" -nb "$bg" -nf "$fg" -sb "$c5" -sf "$fg" 
+bindsym $mod+semicolon exec rofi -lines 12 -padding 18 -width 60 -location 0 -show drun -sidebar-mode -columns 3 -font 'Tamsyn 8' 
 
 
 ## ------ ##+ windows +## ------ ##
@@ -110,30 +111,35 @@ bindsym $mod+b split h
 # split vertically
 bindsym $mod+v split v
 
-# window border size
-for_window [class="^.*"] border pixel 2
+# window title bar
+for_window [class="^.*"] border normal 0
+for_window [class=".*"] title_format "<span font='8'> %title </span>"
+title_align center 
 
 # window border colors
 # class                 border  backgr. text indicator child_border
-client.focused          $c1     $c1     $bg  $c1       $c1
-client.focused_inactive $bg     $bg     $fg  $c1       $c5
-client.unfocused        $bg     $bg     $fg  $c1       $c5
-client.urgent           $bg     $c3     $fg  $c1       $c3
-client.placeholder      $bg     $bg     $fg  $c1       $bg
-client.background $bg
+client.focused          $c5     $c1     $fg  $c5       $c5
+client.focused_inactive $c1     $c1     $fg  $bg       $bg
+client.unfocused        $c1     $c1     $fg  $bg       $bg
+client.urgent           $c1     $c1     $fg  $c3       $c3
+#client.placeholder      $c5     $c1     $fg  $trp       $trp
+#client.background $trp
 
 # window rules
 assign [class=Firefox] 1
 assign [class=URxvt] 2
 assign [class=Thunar|Catfish] 3
-assign [class=Geany] 4
-assign [class=Gimp*|Inkscape] 0
+assign [class=Geany|Gvim|idle3|mupdf] 4
+assign [class=Abiword] 5
+assign [class=Gimp*|Inkscape|kdenlive] 6
 for_window [class=feh|Lxappearance|mpv|System-config-printer.py|Catfish] floating enable
 for_window [class=mpv] sticky enable
-for_window [class=mpv] resize set 500 280
+for_window [class=feh|mpv] resize set 500 280
 for_window [class=mpv] border pixel 0
 for_window [class=mpv] move right 1140 px 
 for_window [class=mpv] move down 621 px
+for_window [class=feh] move position center
+default_floating_border pixel 0
 
 
 ## ------ ##+ workspaces +## ------ ##
@@ -267,40 +273,23 @@ mode "$mode_log_off" {
 
 # top bar
 bar {
+	font pango:Tamsyn 8
+	height 35
 	i3bar_command i3bar -t
+#	workspace_buttons no
 	colors {
         background $bg
 		statusline $fg
         separator $bg
 
 		# colour of border, background, and text
-        focused_workspace	$bg	$bg	$fg
-        active_workspace	$bg	$bg	$c5
-        inactive_workspace	$bg	$bg	$c5
-        urgent_workspace	$bg	$bg	$c3
+        focused_workspace	$c5	$c1	$fg
+        active_workspace	$bg	$c1	$fg
+        inactive_workspace	$bg	$c1	$fg
+        urgent_workspace	$bg	$c1	$c3
 }
 	position top
     status_command i3status -c ~/.config/i3/i3status.conf
-}
-
-# bottom bar
-bar {
-	tray_output none
-	workspace_buttons no
-	i3bar_command i3bar -t
-	colors {
-        background $bg
-		statusline $fg
-        separator $bg
-
-#		# colour of border, background, and text
-#        #focused_workspace	$trp	$trp	$
-#        #active_workspace	$trp	$trp	$c5
-#        #inactive_workspace	$trp	$trp	$c5
-#        #urgent_workspace	$trp	$trp	$c3
-}
-	position bottom
-	status_command i3status -c ~/.config/i3/i3statusb.conf
 }
 
 

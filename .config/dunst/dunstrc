@@ -64,11 +64,11 @@ icon_folders = /usr/share/icons/gnome/16x16/status/:/usr/share/icons/gnome/16x16
     
 ## ------ ##+ notification window geometry +## ------ ##
 
-geometry = "250x50-30+26"
+geometry = "250x50-30+45"
     
 shrink = no
     
-transparency = 10
+transparency = 0
 
 monitor = 0
     
@@ -83,7 +83,7 @@ horizontal_padding = 24
 separator_color = frame
     
 [frame]
-    width = 2
+    width = 0
     color = "#77FB88"
 
 
@@ -114,16 +114,16 @@ separator_color = frame
 [urgency_low]
     # IMPORTANT: colors have to be defined in quotation marks.
     # Otherwise the "#" and following would be interpreted as a comment.
-    background = "#fbf2f9"
-    foreground = "#D656A7"
+    background = "#fefefe"
+    foreground = "#D5CED3"
     timeout = 10
 
 [urgency_normal]
-    background = "#fbf2f9"
+    background = "#fefefe"
     foreground = "#45372E"
     timeout = 6
 
 [urgency_critical]
-    background = "#fbf2f9"
-    foreground = "#77FB88"
-    timeout = 0
+    background = "#fefefe"
+    foreground = "#B7BFC9"
+    timeout = 6

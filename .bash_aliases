@@ -21,7 +21,6 @@ alias saR='sudo apt autoremove'
 alias sau='sudo apt update'
 alias saU='sudo apt upgrade'
 alias sad='sudo apt dist-upgrade'
-alias saf='sudo apt -f install'
 
 
 ## ------ ##+ programs +## ------ ##
@@ -42,6 +41,6 @@ alias tm='tmuxinator start daily'
 
 alias i3cf='vim ~/.config/i3/config'
 alias i3scf='vim ~/.config/i3/i3status.conf'
-alias i3sbcf='vim ~/.config/i3/i3statusb.conf' 
 alias ncf='vim ~/.config/newsboat/config'
 alias dcf='vim ~/.config/dunst/dunstrc'
+alias rcf='vim ~/.config/rofi/config'
