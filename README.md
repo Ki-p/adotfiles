@@ -101,6 +101,7 @@ make
 sudo checkinstall  
 
 <i>Get platinum9 icons</i>
+
 cd  
 mkdir .icons  
 cd Git  
