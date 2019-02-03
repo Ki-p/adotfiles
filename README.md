@@ -6,6 +6,7 @@ I don't intend for anyone else to use this, this is just for me to easily replic
 
 ---
 su
+
 apt install sudo xorg i3 git wget pulseaudio rxvt-unicode-256color tmux cmus feh suckless-tools firefox-esr thunar catfish python3-pip mpv vim-gtk3 idle3 mupdf abiword gimp lxappearance system-config-printer network-manager 
 
 _Add USER in the sudo group_
