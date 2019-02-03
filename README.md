@@ -142,6 +142,8 @@ cp -r config/ .Xresources .bash_aliases .bashrc ~/
 sudo reboot  
 startx  
 
-## **Done**              
+<header>
+<h2>Done</h2>
+</header>              
 
 </pre>
