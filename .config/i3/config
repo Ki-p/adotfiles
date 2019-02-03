@@ -21,7 +21,7 @@ font pango:Tamsyn 22.5
 gaps inner 15
 gaps outer 15
 bindsym --release Print exec scrot -e 'mv $f ~/Pictures/Shots'
-bindsym $mod+F12 exec i3lock -u -c 000000 
+bindsym $mod+F12 exec i3lock -c 000000 
 
 # hold to drag floating window with mouse
 floating_modifier $mod
@@ -129,7 +129,7 @@ client.urgent           $c1     $c1     $fg  $c3       $c3
 assign [class=Firefox] 1
 assign [class=URxvt] 2
 assign [class=Thunar|Catfish] 3
-assign [class=Geany|Gvim|idle3|mupdf] 4
+assign [class=Gvim|idle3|mupdf] 4
 assign [class=Abiword] 5
 assign [class=Gimp*|Inkscape|kdenlive] 6
 for_window [class=feh|Lxappearance|mpv|System-config-printer.py|Catfish] floating enable
