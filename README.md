@@ -10,32 +10,32 @@ su
 
 apt install sudo xorg i3 git wget pulseaudio rxvt-unicode-256color tmux cmus feh suckless-tools firefox-esr thunar catfish python3-pip mpv vim-gtk3 idle3 mupdf abiword gimp lxappearance system-config-printer network-manager 
 
-_Add USER in the sudo group_
+<i>Add USER in the sudo group</i>
 
 adduser USER sudo  
 reboot
 
-_Add contrib non-free and backports in sources.list_
+<i>Add contrib non-free and backports in sources.list</i>
 
 sudo sed -i s/main/main contrib non-free\g /etc/apt/sources.list  
 sudo echo "deb http://ftp.debian.org/debian stretch-backports main" >> /etc/apt/sources.list
 
-_Install firmware_
+<i>Install firmware</i>
 
 sudo apt install firmware-linux iwlwifi firmware-realtek
 
-_Add i3 in xinitrc then start i3_
+<i>Add i3 in xinitrc then start i3</i>
 
 sudo cp /etc/X11/xinit/xinitrc ~/.xinitrc  
 echo "exec i3" >> .xinitrc  
 startx
 
-_Install packages needed for making backports_
+<i>Install packages needed for making backports</i>
 
 sudo apt install packaging-dev debian-keyring devscripts equivs  
 sudo apt -t stretch-backports install "debhelper"
 
-_Install brightnessctl_
+<i>Install brightnessctl</i>
 
 mkdir Backports  
 cd Backports  
@@ -49,7 +49,7 @@ dpkg-buildpackage -us -uc
 cd ..  
 sudo dpkg -i brightnessctl_0.3.2-1~bpo9+1_amd64.deb
 
-_Install pulsemixer_
+<i>Install pulsemixer</i>
 
 cd ..  
 mkdir pulsemixer  
@@ -62,7 +62,7 @@ dpkg-buildpackage -us -uc
 cd ..  
 sudo dpkg -i pulsemixer_1.4.0-1~bpo9+1_amd64,deb  
 
-_Install newsboat_
+<i>Install newsboat</i>
 
 cd ..  
 mkdir newsboat 
@@ -76,20 +76,20 @@ dpkg-buildpackage -us -uc
 cd ..  
 sudo dpkg -i newsboat_2.13-1~bpo9+1_amd64.deb  
 
-_Install backported youtube-dl_
+<i>Install backported youtube-dl</i>
 
 sudo apt -t stretch-backports install "youtube-dl"
 
-_No password needed for brightnessctl shutdown and reboot_
+<i>No password needed for brightnessctl shutdown and reboot</i>
 
 sudo touch /etc/sudoers.d/sudoers  
 sudo echo "%eng ALL= NOPASSWD : /sbin/shutdown,/sbin/reboot,/usr/bin/brightnessctl" /etc/sudoers.d/sudoers  
 
-_Install checkinstall_
+<i>Install checkinstall</i>
 
 sudo apt install checkinstall
 
-_Install cava(a music visualizer)_
+<i>Install cava(a music visualizer)</i>
 
 mkdir Git  
 git clone https://github.com/karlstav/cava.git  
@@ -100,7 +100,7 @@ sudo apt-get install libfftw3-dev libasound2-dev libncursesw5-dev libpulse-dev l
 make  
 sudo checkinstall  
 
-_Get platinum9 icons_
+<i>Get platinum9 icons</i>
 cd  
 mkdir .icons  
 cd Git  
@@ -109,14 +109,16 @@ cd Platinum9
 cp -r NineIcons ~/.fonts  
 set in lxappearance  
 
-_Get tamsyn font_
+<i>Get tamsyn font</i>
+
 wget http://www.fial.com/~scott/tamsyn-font/download/tamsyn-font-1.11.tar.gz  
 mkdir .fonts  
 tar -xvzf tamsyn-font-1.11.tar.gz  
 cp -r tamsyn-font-1.11/ ~/.fonts  
 remove the conf file that prevents use of pcf fonts  
 
-_Install i3-gaps_
+<i>Install i3-gaps</i>
+
 cd Git  
 git clone https://www.github.com/Airblader/i3 i3-gaps  
 cd i3-gaps  
