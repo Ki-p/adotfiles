@@ -1,0 +1,530 @@
+May 10 16:44 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 10 16:44 : exception: Failed to open '/home/eng/.mpd/mpdstate': No such file or directory
+May 10 16:44 : client: [0] opened from 127.0.0.1:44640
+May 10 16:44 : client: [0] closed
+May 10 16:54 : client: [1] opened from 127.0.0.1:44984
+May 10 17:03 : client: [1] closed
+May 10 17:03 : client: [2] opened from 127.0.0.1:45074
+May 10 17:03 : client: [3] opened from 127.0.0.1:45078
+May 10 17:05 : client: [3] closed
+May 10 17:06 : client: [4] opened from 127.0.0.1:45204
+May 10 17:06 : client: [4] closed
+May 10 17:06 : update: added /Martin Luther King - I Have a Dream on August 28, 1963 [Sous-titres & Subtitles] [FULL SPEECH]-HRIF4_WzU1w.m4a
+May 10 17:06 : client: [2] closed
+May 10 17:06 : client: [5] opened from 127.0.0.1:45208
+May 10 17:15 : client: [5] closed
+May 10 18:53 : client: [6] opened from 127.0.0.1:45796
+May 10 18:53 : client: [6] closed
+May 10 18:53 : update: added My Bloody Valentine/EPs/1991 - Tremolo E.P. (Creation Records, cres cd085. CD)/04 Moon Song.flac
+May 10 18:53 : update: added My Bloody Valentine/EPs/1991 - Tremolo E.P. (Creation Records, cres cd085. CD)/01 To Here Knows When.flac
+May 10 18:53 : update: added My Bloody Valentine/EPs/1991 - Tremolo E.P. (Creation Records, cres cd085. CD)/03 Honey Power.flac
+May 10 18:53 : update: added My Bloody Valentine/EPs/1991 - Tremolo E.P. (Creation Records, cres cd085. CD)/02 Swallow.flac
+May 10 18:53 : update: added My Bloody Valentine/EPs/1988 - You Made Me Realise (Creation Records, CRE SCD 055. CD)/03 Thorn.flac
+May 10 18:53 : update: added My Bloody Valentine/EPs/1988 - You Made Me Realise (Creation Records, CRE SCD 055. CD)/02 Slow.flac
+May 10 18:53 : update: added My Bloody Valentine/EPs/1988 - You Made Me Realise (Creation Records, CRE SCD 055. CD)/04 Cigarette In Your Bed.flac
+May 10 18:53 : update: added My Bloody Valentine/EPs/1988 - You Made Me Realise (Creation Records, CRE SCD 055. CD)/05 Drive It All Over Me.flac
+May 10 18:53 : update: added My Bloody Valentine/EPs/1988 - You Made Me Realise (Creation Records, CRE SCD 055. CD)/01 You Made Me Realise.flac
+May 10 18:53 : update: added My Bloody Valentine/EPs/1990 - Glider (1991. Sire, 9 26313-2. CD)/03 Don't Ask Why.flac
+May 10 18:53 : update: added My Bloody Valentine/EPs/1990 - Glider (1991. Sire, 9 26313-2. CD)/01 Soon.flac
+May 10 18:53 : update: added My Bloody Valentine/EPs/1990 - Glider (1991. Sire, 9 26313-2. CD)/02 Glider.flac
+May 10 18:53 : update: added My Bloody Valentine/EPs/1990 - Glider (1991. Sire, 9 26313-2. CD)/04 Off Your Face.flac
+May 10 18:53 : update: added My Bloody Valentine/Singles/1988 - Feed Me With Your Kiss (Creation, CRE SCD 061. CD)/02 I Believe.flac
+May 10 18:53 : update: added My Bloody Valentine/Singles/1988 - Feed Me With Your Kiss (Creation, CRE SCD 061. CD)/01 Feed Me With Your Kiss.flac
+May 10 18:53 : update: added My Bloody Valentine/Singles/1988 - Feed Me With Your Kiss (Creation, CRE SCD 061. CD)/03 Emptiness Inside.flac
+May 10 18:53 : update: added My Bloody Valentine/Singles/1988 - Feed Me With Your Kiss (Creation, CRE SCD 061. CD)/04 I Need No Trust.flac
+May 10 18:53 : update: added My Bloody Valentine/Singles/1991 - Only Shallow (CD Promo)/03 Instrumental.flac
+May 10 18:53 : update: added My Bloody Valentine/Singles/1991 - Only Shallow (CD Promo)/01 Only Shallow.flac
+May 10 18:53 : update: added My Bloody Valentine/Singles/1991 - Only Shallow (CD Promo)/02 Sugar.flac
+May 10 18:53 : update: added My Bloody Valentine/Mini Albums/1985 - This Is Your Bloody Valentine (1990 Reissue. Dossier, DCD 9019. CD)/01 Forever And Again.flac
+May 10 18:53 : update: added My Bloody Valentine/Mini Albums/1985 - This Is Your Bloody Valentine (1990 Reissue. Dossier, DCD 9019. CD)/06 Inferno.flac
+May 10 18:53 : update: added My Bloody Valentine/Mini Albums/1985 - This Is Your Bloody Valentine (1990 Reissue. Dossier, DCD 9019. CD)/05 The Love Gang.flac
+May 10 18:53 : update: added My Bloody Valentine/Mini Albums/1985 - This Is Your Bloody Valentine (1990 Reissue. Dossier, DCD 9019. CD)/02 Homelovin' Guy.flac
+May 10 18:53 : update: added My Bloody Valentine/Mini Albums/1985 - This Is Your Bloody Valentine (1990 Reissue. Dossier, DCD 9019. CD)/03 Don't Cramp My Style.flac
+May 10 18:53 : update: added My Bloody Valentine/Mini Albums/1985 - This Is Your Bloody Valentine (1990 Reissue. Dossier, DCD 9019. CD)/07 The Last Supper.flac
+May 10 18:53 : update: added My Bloody Valentine/Mini Albums/1985 - This Is Your Bloody Valentine (1990 Reissue. Dossier, DCD 9019. CD)/04 Tiger In My Tank.flac
+May 10 18:53 : update: added My Bloody Valentine/Compilations/1989 - Ecstasy And Wine (Lazy Records, LAZY 12 CD. CD)/04 She Loves You No Less.flac
+May 10 18:53 : update: added My Bloody Valentine/Compilations/1989 - Ecstasy And Wine (Lazy Records, LAZY 12 CD. CD)/06 I Don't Need You.flac
+May 10 18:53 : update: added My Bloody Valentine/Compilations/1989 - Ecstasy And Wine (Lazy Records, LAZY 12 CD. CD)/08 Clair.flac
+May 10 18:53 : update: added My Bloody Valentine/Compilations/1989 - Ecstasy And Wine (Lazy Records, LAZY 12 CD. CD)/01 Strawberry Wine.flac
+May 10 18:53 : update: added My Bloody Valentine/Compilations/1989 - Ecstasy And Wine (Lazy Records, LAZY 12 CD. CD)/05 The Things I Miss.flac
+May 10 18:53 : update: added My Bloody Valentine/Compilations/1989 - Ecstasy And Wine (Lazy Records, LAZY 12 CD. CD)/09 You've Got Nothing.flac
+May 10 18:53 : update: added My Bloody Valentine/Compilations/1989 - Ecstasy And Wine (Lazy Records, LAZY 12 CD. CD)/02 Never Say Goodbye.flac
+May 10 18:53 : update: added My Bloody Valentine/Compilations/1989 - Ecstasy And Wine (Lazy Records, LAZY 12 CD. CD)/07 (You're) Safe In Your Sleep (From This Girl).flac
+May 10 18:53 : update: added My Bloody Valentine/Compilations/1989 - Ecstasy And Wine (Lazy Records, LAZY 12 CD. CD)/10 (Please) Lose Yourself In Me.flac
+May 10 18:53 : update: added My Bloody Valentine/Compilations/1989 - Ecstasy And Wine (Lazy Records, LAZY 12 CD. CD)/03 Can I Touch You.flac
+May 10 18:53 : update: added My Bloody Valentine/Compilations/2012 - EP's 1988-1991 (Sony Music, 88691941692. CD)/CD1/03 Thorn.flac
+May 10 18:53 : update: added My Bloody Valentine/Compilations/2012 - EP's 1988-1991 (Sony Music, 88691941692. CD)/CD1/13 Off Your Face.flac
+May 10 18:53 : update: added My Bloody Valentine/Compilations/2012 - EP's 1988-1991 (Sony Music, 88691941692. CD)/CD1/12 Don't Ask Why.flac
+May 10 18:53 : update: added My Bloody Valentine/Compilations/2012 - EP's 1988-1991 (Sony Music, 88691941692. CD)/CD1/10 Soon.flac
+May 10 18:53 : update: added My Bloody Valentine/Compilations/2012 - EP's 1988-1991 (Sony Music, 88691941692. CD)/CD1/02 Slow.flac
+May 10 18:53 : update: added My Bloody Valentine/Compilations/2012 - EP's 1988-1991 (Sony Music, 88691941692. CD)/CD1/06 Feed Me With Your Kiss.flac
+May 10 18:53 : update: added My Bloody Valentine/Compilations/2012 - EP's 1988-1991 (Sony Music, 88691941692. CD)/CD1/04 Cigarette In Your Bed.flac
+May 10 18:53 : update: added My Bloody Valentine/Compilations/2012 - EP's 1988-1991 (Sony Music, 88691941692. CD)/CD1/05 Drive It All Over Me.flac
+May 10 18:53 : update: added My Bloody Valentine/Compilations/2012 - EP's 1988-1991 (Sony Music, 88691941692. CD)/CD1/08 Emptiness Inside.flac
+May 10 18:53 : update: added My Bloody Valentine/Compilations/2012 - EP's 1988-1991 (Sony Music, 88691941692. CD)/CD1/07 I Believe.flac
+May 10 18:53 : update: added My Bloody Valentine/Compilations/2012 - EP's 1988-1991 (Sony Music, 88691941692. CD)/CD1/11 Glider.flac
+May 10 18:53 : update: added My Bloody Valentine/Compilations/2012 - EP's 1988-1991 (Sony Music, 88691941692. CD)/CD1/09 I Need No Trust.flac
+May 10 18:53 : update: added My Bloody Valentine/Compilations/2012 - EP's 1988-1991 (Sony Music, 88691941692. CD)/CD1/01 You Made Me Realise.flac
+May 10 18:53 : update: added My Bloody Valentine/Compilations/2012 - EP's 1988-1991 (Sony Music, 88691941692. CD)/CD2/04 Moon Song.flac
+May 10 18:53 : update: added My Bloody Valentine/Compilations/2012 - EP's 1988-1991 (Sony Music, 88691941692. CD)/CD2/11 How Do You Do It.flac
+May 10 18:53 : update: added My Bloody Valentine/Compilations/2012 - EP's 1988-1991 (Sony Music, 88691941692. CD)/CD2/06 Instrumental No. 1.flac
+May 10 18:53 : update: added My Bloody Valentine/Compilations/2012 - EP's 1988-1991 (Sony Music, 88691941692. CD)/CD2/01 To Here Knows When.flac
+May 10 18:53 : update: added My Bloody Valentine/Compilations/2012 - EP's 1988-1991 (Sony Music, 88691941692. CD)/CD2/07 Glider (Full Length Version).flac
+May 10 18:53 : update: added My Bloody Valentine/Compilations/2012 - EP's 1988-1991 (Sony Music, 88691941692. CD)/CD2/10 Good For You.flac
+May 10 18:53 : update: added My Bloody Valentine/Compilations/2012 - EP's 1988-1991 (Sony Music, 88691941692. CD)/CD2/08 Sugar.flac
+May 10 18:53 : update: added My Bloody Valentine/Compilations/2012 - EP's 1988-1991 (Sony Music, 88691941692. CD)/CD2/03 Honey Power.flac
+May 10 18:53 : update: added My Bloody Valentine/Compilations/2012 - EP's 1988-1991 (Sony Music, 88691941692. CD)/CD2/09 Angel.flac
+May 10 18:53 : update: added My Bloody Valentine/Compilations/2012 - EP's 1988-1991 (Sony Music, 88691941692. CD)/CD2/05 Instrumental No. 2.flac
+May 10 18:53 : update: added My Bloody Valentine/Compilations/2012 - EP's 1988-1991 (Sony Music, 88691941692. CD)/CD2/02 Swallow.flac
+May 10 18:53 : update: added My Bloody Valentine/Studio Albums/2013 - m b v (mbv records, mbv cd 01. CD)/02 Only Tomorrow.flac
+May 10 18:53 : update: added My Bloody Valentine/Studio Albums/2013 - m b v (mbv records, mbv cd 01. CD)/05 If I Am.flac
+May 10 18:53 : update: added My Bloody Valentine/Studio Albums/2013 - m b v (mbv records, mbv cd 01. CD)/08 Nothing Is.flac
+May 10 18:53 : update: added My Bloody Valentine/Studio Albums/2013 - m b v (mbv records, mbv cd 01. CD)/04 Is This And Yes.flac
+May 10 18:53 : update: added My Bloody Valentine/Studio Albums/2013 - m b v (mbv records, mbv cd 01. CD)/06 New You.flac
+May 10 18:53 : update: added My Bloody Valentine/Studio Albums/2013 - m b v (mbv records, mbv cd 01. CD)/03 Who Sees You.flac
+May 10 18:53 : update: added My Bloody Valentine/Studio Albums/2013 - m b v (mbv records, mbv cd 01. CD)/01 She Found Now.flac
+May 10 18:53 : update: added My Bloody Valentine/Studio Albums/2013 - m b v (mbv records, mbv cd 01. CD)/07 In Another Way.flac
+May 10 18:53 : update: added My Bloody Valentine/Studio Albums/2013 - m b v (mbv records, mbv cd 01. CD)/09 Wonder 2.flac
+May 10 18:53 : update: added My Bloody Valentine/Studio Albums/1991 - Loveless (Sire, 9 26759-2. CD)/09 Blown A Wish.flac
+May 10 18:53 : update: added My Bloody Valentine/Studio Albums/1991 - Loveless (Sire, 9 26759-2. CD)/04 To Here Knows When.flac
+May 10 18:53 : update: added My Bloody Valentine/Studio Albums/1991 - Loveless (Sire, 9 26759-2. CD)/10 What You Want.flac
+May 10 18:53 : update: added My Bloody Valentine/Studio Albums/1991 - Loveless (Sire, 9 26759-2. CD)/11 Soon.flac
+May 10 18:53 : update: added My Bloody Valentine/Studio Albums/1991 - Loveless (Sire, 9 26759-2. CD)/05 When You Sleep.flac
+May 10 18:53 : update: added My Bloody Valentine/Studio Albums/1991 - Loveless (Sire, 9 26759-2. CD)/08 Sometimes.flac
+May 10 18:53 : update: added My Bloody Valentine/Studio Albums/1991 - Loveless (Sire, 9 26759-2. CD)/01 Only Shallow.flac
+May 10 18:53 : update: added My Bloody Valentine/Studio Albums/1991 - Loveless (Sire, 9 26759-2. CD)/06 I Only Said.flac
+May 10 18:53 : update: added My Bloody Valentine/Studio Albums/1991 - Loveless (Sire, 9 26759-2. CD)/03 Touched.flac
+May 10 18:53 : update: added My Bloody Valentine/Studio Albums/1991 - Loveless (Sire, 9 26759-2. CD)/07 Come In Alone.flac
+May 10 18:53 : update: added My Bloody Valentine/Studio Albums/1991 - Loveless (Sire, 9 26759-2. CD)/02 Loomer.flac
+May 10 18:53 : update: added My Bloody Valentine/Studio Albums/1991 - Loveless (2013 Remastered Special Edition Repress. Sony Music, 886973121122. 2xCD)/Loveless cd2/09 Blown a Wish.flac
+May 10 18:53 : update: added My Bloody Valentine/Studio Albums/1991 - Loveless (2013 Remastered Special Edition Repress. Sony Music, 886973121122. 2xCD)/Loveless cd2/04 To Here Knows When.flac
+May 10 18:53 : update: added My Bloody Valentine/Studio Albums/1991 - Loveless (2013 Remastered Special Edition Repress. Sony Music, 886973121122. 2xCD)/Loveless cd2/10 What You Want.flac
+May 10 18:53 : update: added My Bloody Valentine/Studio Albums/1991 - Loveless (2013 Remastered Special Edition Repress. Sony Music, 886973121122. 2xCD)/Loveless cd2/11 Soon.flac
+May 10 18:53 : update: added My Bloody Valentine/Studio Albums/1991 - Loveless (2013 Remastered Special Edition Repress. Sony Music, 886973121122. 2xCD)/Loveless cd2/05 When You Sleep.flac
+May 10 18:53 : update: added My Bloody Valentine/Studio Albums/1991 - Loveless (2013 Remastered Special Edition Repress. Sony Music, 886973121122. 2xCD)/Loveless cd2/08 Sometimes.flac
+May 10 18:53 : update: added My Bloody Valentine/Studio Albums/1991 - Loveless (2013 Remastered Special Edition Repress. Sony Music, 886973121122. 2xCD)/Loveless cd2/01 Only Shallow.flac
+May 10 18:53 : update: added My Bloody Valentine/Studio Albums/1991 - Loveless (2013 Remastered Special Edition Repress. Sony Music, 886973121122. 2xCD)/Loveless cd2/06 I Only Said.flac
+May 10 18:53 : update: added My Bloody Valentine/Studio Albums/1991 - Loveless (2013 Remastered Special Edition Repress. Sony Music, 886973121122. 2xCD)/Loveless cd2/03 Touched.flac
+May 10 18:53 : update: added My Bloody Valentine/Studio Albums/1991 - Loveless (2013 Remastered Special Edition Repress. Sony Music, 886973121122. 2xCD)/Loveless cd2/07 Come In Alone.flac
+May 10 18:53 : update: added My Bloody Valentine/Studio Albums/1991 - Loveless (2013 Remastered Special Edition Repress. Sony Music, 886973121122. 2xCD)/Loveless cd2/02 Loomer.flac
+May 10 18:53 : update: added My Bloody Valentine/Studio Albums/1991 - Loveless (2013 Remastered Special Edition Repress. Sony Music, 886973121122. 2xCD)/Loveless cd1/09 Blown a Wish.flac
+May 10 18:53 : update: added My Bloody Valentine/Studio Albums/1991 - Loveless (2013 Remastered Special Edition Repress. Sony Music, 886973121122. 2xCD)/Loveless cd1/04 To Here Knows When.flac
+May 10 18:53 : update: added My Bloody Valentine/Studio Albums/1991 - Loveless (2013 Remastered Special Edition Repress. Sony Music, 886973121122. 2xCD)/Loveless cd1/10 What You Want.flac
+May 10 18:53 : update: added My Bloody Valentine/Studio Albums/1991 - Loveless (2013 Remastered Special Edition Repress. Sony Music, 886973121122. 2xCD)/Loveless cd1/11 Soon.flac
+May 10 18:53 : update: added My Bloody Valentine/Studio Albums/1991 - Loveless (2013 Remastered Special Edition Repress. Sony Music, 886973121122. 2xCD)/Loveless cd1/05 When You Sleep.flac
+May 10 18:53 : update: added My Bloody Valentine/Studio Albums/1991 - Loveless (2013 Remastered Special Edition Repress. Sony Music, 886973121122. 2xCD)/Loveless cd1/08 Sometimes.flac
+May 10 18:53 : update: added My Bloody Valentine/Studio Albums/1991 - Loveless (2013 Remastered Special Edition Repress. Sony Music, 886973121122. 2xCD)/Loveless cd1/01 Only Shallow.flac
+May 10 18:53 : update: added My Bloody Valentine/Studio Albums/1991 - Loveless (2013 Remastered Special Edition Repress. Sony Music, 886973121122. 2xCD)/Loveless cd1/06 I Only Said.flac
+May 10 18:53 : update: added My Bloody Valentine/Studio Albums/1991 - Loveless (2013 Remastered Special Edition Repress. Sony Music, 886973121122. 2xCD)/Loveless cd1/03 Touched.flac
+May 10 18:53 : update: added My Bloody Valentine/Studio Albums/1991 - Loveless (2013 Remastered Special Edition Repress. Sony Music, 886973121122. 2xCD)/Loveless cd1/07 Come In Alone.flac
+May 10 18:53 : update: added My Bloody Valentine/Studio Albums/1991 - Loveless (2013 Remastered Special Edition Repress. Sony Music, 886973121122. 2xCD)/Loveless cd1/02 Loomer.flac
+May 10 18:53 : update: added My Bloody Valentine/Studio Albums/1988 - Isn't Anything (2012 Remastered Reissue. Sony Music UK, 88697312082. CD)/05 No More Sorry.flac
+May 10 18:53 : update: added My Bloody Valentine/Studio Albums/1988 - Isn't Anything (2012 Remastered Reissue. Sony Music UK, 88697312082. CD)/12 I Can See It (But I Can't Feel It).flac
+May 10 18:53 : update: added My Bloody Valentine/Studio Albums/1988 - Isn't Anything (2012 Remastered Reissue. Sony Music UK, 88697312082. CD)/11 Nothing Much To Lose.flac
+May 10 18:53 : update: added My Bloody Valentine/Studio Albums/1988 - Isn't Anything (2012 Remastered Reissue. Sony Music UK, 88697312082. CD)/10 You Never Should.flac
+May 10 18:53 : update: added My Bloody Valentine/Studio Albums/1988 - Isn't Anything (2012 Remastered Reissue. Sony Music UK, 88697312082. CD)/04 (When You Wake) You're Still In A Dream.flac
+May 10 18:53 : update: added My Bloody Valentine/Studio Albums/1988 - Isn't Anything (2012 Remastered Reissue. Sony Music UK, 88697312082. CD)/02 Lose My Breath.flac
+May 10 18:53 : update: added My Bloody Valentine/Studio Albums/1988 - Isn't Anything (2012 Remastered Reissue. Sony Music UK, 88697312082. CD)/06 All I Need.flac
+May 10 18:53 : update: added My Bloody Valentine/Studio Albums/1988 - Isn't Anything (2012 Remastered Reissue. Sony Music UK, 88697312082. CD)/03 Cupid Come.flac
+May 10 18:53 : update: added My Bloody Valentine/Studio Albums/1988 - Isn't Anything (2012 Remastered Reissue. Sony Music UK, 88697312082. CD)/01 Soft As Snow (But Warm Inside).flac
+May 10 18:53 : update: added My Bloody Valentine/Studio Albums/1988 - Isn't Anything (2012 Remastered Reissue. Sony Music UK, 88697312082. CD)/09 Several Girls Galore.flac
+May 10 18:53 : update: added My Bloody Valentine/Studio Albums/1988 - Isn't Anything (2012 Remastered Reissue. Sony Music UK, 88697312082. CD)/07 Feed Me With Your Kiss.flac
+May 10 18:53 : update: added My Bloody Valentine/Studio Albums/1988 - Isn't Anything (2012 Remastered Reissue. Sony Music UK, 88697312082. CD)/08 Sueisfine.flac
+May 10 18:53 : update: added My Bloody Valentine/Studio Albums/1988 - Isn't Anything (Creation Records, CRELP 040. CD)/05 No More Sorry.flac
+May 10 18:53 : update: added My Bloody Valentine/Studio Albums/1988 - Isn't Anything (Creation Records, CRELP 040. CD)/12 I Can See It (But I Can't Feel It).flac
+May 10 18:53 : update: added My Bloody Valentine/Studio Albums/1988 - Isn't Anything (Creation Records, CRELP 040. CD)/11 Nothing Much To Lose.flac
+May 10 18:53 : update: added My Bloody Valentine/Studio Albums/1988 - Isn't Anything (Creation Records, CRELP 040. CD)/10 You Never Should.flac
+May 10 18:53 : update: added My Bloody Valentine/Studio Albums/1988 - Isn't Anything (Creation Records, CRELP 040. CD)/04 (When You Wake) You're Still In A Dream.flac
+May 10 18:53 : update: added My Bloody Valentine/Studio Albums/1988 - Isn't Anything (Creation Records, CRELP 040. CD)/02 Lose My Breath.flac
+May 10 18:53 : update: added My Bloody Valentine/Studio Albums/1988 - Isn't Anything (Creation Records, CRELP 040. CD)/06 All I Need.flac
+May 10 18:53 : update: added My Bloody Valentine/Studio Albums/1988 - Isn't Anything (Creation Records, CRELP 040. CD)/03 Cupid Come.flac
+May 10 18:53 : update: added My Bloody Valentine/Studio Albums/1988 - Isn't Anything (Creation Records, CRELP 040. CD)/01 Soft As Snow (But Warm Inside).flac
+May 10 18:53 : update: added My Bloody Valentine/Studio Albums/1988 - Isn't Anything (Creation Records, CRELP 040. CD)/09 Several Girls Galore.flac
+May 10 18:53 : update: added My Bloody Valentine/Studio Albums/1988 - Isn't Anything (Creation Records, CRELP 040. CD)/07 Feed Me With Your Kiss.flac
+May 10 18:53 : update: added My Bloody Valentine/Studio Albums/1988 - Isn't Anything (Creation Records, CRELP 040. CD)/08 Sueisfine.flac
+May 10 18:53 : client: [7] opened from 127.0.0.1:45800
+May 10 18:53 : client: [7] closed
+May 10 18:54 : client: [8] opened from 127.0.0.1:45804
+May 10 18:54 : client: [8] closed
+May 10 18:54 : client: [9] opened from 127.0.0.1:45808
+May 10 18:54 : client: [9] closed
+May 10 18:54 : update: added 1985 - This Is Your Bloody Valentine (1990 Reissue. Dossier, DCD 9019. CD)/01 Forever And Again.flac
+May 10 18:54 : update: added 1985 - This Is Your Bloody Valentine (1990 Reissue. Dossier, DCD 9019. CD)/06 Inferno.flac
+May 10 18:54 : update: added 1985 - This Is Your Bloody Valentine (1990 Reissue. Dossier, DCD 9019. CD)/05 The Love Gang.flac
+May 10 18:54 : update: added 1985 - This Is Your Bloody Valentine (1990 Reissue. Dossier, DCD 9019. CD)/02 Homelovin' Guy.flac
+May 10 18:54 : update: added 1985 - This Is Your Bloody Valentine (1990 Reissue. Dossier, DCD 9019. CD)/03 Don't Cramp My Style.flac
+May 10 18:54 : update: added 1985 - This Is Your Bloody Valentine (1990 Reissue. Dossier, DCD 9019. CD)/07 The Last Supper.flac
+May 10 18:54 : update: added 1985 - This Is Your Bloody Valentine (1990 Reissue. Dossier, DCD 9019. CD)/04 Tiger In My Tank.flac
+May 10 18:54 : client: [10] opened from 127.0.0.1:45812
+May 10 18:54 : client: [10] closed
+May 10 18:55 : client: [11] opened from 127.0.0.1:45938
+May 10 18:55 : client: [11] closed
+May 10 18:57 : client: [12] opened from 127.0.0.1:45944
+May 10 18:59 : client: [12] closed
+May 10 19:01 : client: [13] opened from 127.0.0.1:46124
+May 10 19:01 : client: [13] closed
+May 10 19:01 : client: [14] opened from 127.0.0.1:46128
+May 10 19:01 : client: [14] closed
+May 10 19:01 : client: [15] opened from 127.0.0.1:46132
+May 10 19:01 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 10 19:01 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 10 19:02 : client: [15] closed
+May 10 19:10 : client: [16] opened from 127.0.0.1:46180
+May 10 19:11 : client: [17] opened from 127.0.0.1:46182
+May 10 19:12 : client: [17] closed
+May 10 19:12 : client: [18] opened from 127.0.0.1:46184
+May 10 19:12 : client: [18] closed
+May 10 19:12 : client: [19] opened from 127.0.0.1:46186
+May 10 19:12 : client: [19] closed
+May 10 19:12 : client: [20] opened from 127.0.0.1:46188
+May 10 19:14 : client: [20] closed
+May 10 19:14 : client: [21] opened from 127.0.0.1:46212
+May 10 19:15 : player: played "My Bloody Valentine/Studio Albums/1991 - Loveless (Sire, 9 26759-2. CD)/01 Only Shallow.flac"
+May 10 19:15 : client: [21] closed
+May 10 19:15 : client: [22] opened from 127.0.0.1:46258
+May 10 19:17 : client: [22] closed
+May 10 19:17 : client: [23] opened from 127.0.0.1:46260
+May 10 19:17 : player: played "My Bloody Valentine/Studio Albums/1991 - Loveless (Sire, 9 26759-2. CD)/02 Loomer.flac"
+May 10 19:18 : player: played "My Bloody Valentine/Studio Albums/1991 - Loveless (Sire, 9 26759-2. CD)/03 Touched.flac"
+May 10 19:22 : client: [23] closed
+May 10 19:22 : client: [24] opened from 127.0.0.1:46344
+May 10 19:22 : client: [24] closed
+May 10 19:22 : client: [25] opened from 127.0.0.1:46346
+May 10 19:23 : client: [25] closed
+May 10 19:23 : client: [26] opened from 127.0.0.1:46348
+May 10 19:24 : client: [26] closed
+May 10 19:24 : client: [27] opened from 127.0.0.1:46350
+May 10 19:27 : player: played "My Bloody Valentine/Studio Albums/1991 - Loveless (Sire, 9 26759-2. CD)/05 When You Sleep.flac"
+May 10 19:28 : client: [27] closed
+May 10 19:28 : client: [28] opened from 127.0.0.1:46484
+May 10 19:28 : client: [28] closed
+May 10 19:28 : client: [29] opened from 127.0.0.1:46486
+May 10 19:29 : client: [29] closed
+May 10 19:29 : client: [30] opened from 127.0.0.1:46530
+May 10 19:29 : client: [30] closed
+May 10 19:29 : client: [31] opened from 127.0.0.1:46536
+May 10 19:29 : player: played "My Bloody Valentine/Studio Albums/1991 - Loveless (Sire, 9 26759-2. CD)/06 I Only Said.flac"
+May 10 19:30 : client: [31] closed
+May 10 19:30 : client: [32] opened from 127.0.0.1:46546
+May 10 19:30 : player: played "My Bloody Valentine/Studio Albums/1991 - Loveless (Sire, 9 26759-2. CD)/07 Come In Alone.flac"
+May 10 19:30 : client: [32] closed
+May 10 19:30 : client: [33] opened from 127.0.0.1:46550
+May 10 19:30 : client: [33] closed
+May 10 19:30 : client: [34] opened from 127.0.0.1:46552
+May 10 19:31 : client: [34] closed
+May 10 19:31 : client: [35] opened from 127.0.0.1:46554
+May 10 19:31 : client: [35] closed
+May 10 19:31 : client: [36] opened from 127.0.0.1:46556
+May 10 19:31 : client: [36] closed
+May 10 19:31 : client: [37] opened from 127.0.0.1:46558
+May 10 19:31 : client: [37] closed
+May 10 19:31 : client: [38] opened from 127.0.0.1:46560
+May 10 19:31 : client: [38] closed
+May 10 19:31 : client: [39] opened from 127.0.0.1:46562
+May 10 19:33 : client: [39] closed
+May 10 19:33 : client: [40] opened from 127.0.0.1:46600
+May 10 19:34 : client: [40] closed
+May 10 19:34 : client: [41] opened from 127.0.0.1:46602
+May 10 19:35 : client: [41] closed
+May 10 19:35 : client: [42] opened from 127.0.0.1:46604
+May 10 19:35 : client: [42] closed
+May 10 19:35 : client: [43] opened from 127.0.0.1:46606
+May 10 19:35 : player: played "My Bloody Valentine/Studio Albums/1991 - Loveless (Sire, 9 26759-2. CD)/08 Sometimes.flac"
+May 10 19:36 : client: [43] closed
+May 10 19:36 : client: [44] opened from 127.0.0.1:46608
+May 10 19:36 : client: [44] closed
+May 10 19:36 : client: [45] opened from 127.0.0.1:46610
+May 10 19:36 : client: [45] closed
+May 10 19:36 : client: [46] opened from 127.0.0.1:46612
+May 10 19:37 : client: [46] closed
+May 10 19:37 : client: [47] opened from 127.0.0.1:46664
+May 10 19:39 : player: played "My Bloody Valentine/Studio Albums/1991 - Loveless (Sire, 9 26759-2. CD)/09 Blown A Wish.flac"
+May 10 19:40 : client: [47] closed
+May 10 19:40 : client: [48] opened from 127.0.0.1:46670
+May 10 19:43 : client: [48] closed
+May 10 19:43 : client: [49] opened from 127.0.0.1:46674
+May 10 19:44 : player: played "My Bloody Valentine/Studio Albums/1991 - Loveless (Sire, 9 26759-2. CD)/10 What You Want.flac"
+May 10 19:45 : client: [50] opened from 127.0.0.1:46694
+May 10 19:46 : client: [50] closed
+May 10 19:48 : client: [49] closed
+May 10 19:48 : client: [51] opened from 127.0.0.1:46762
+May 10 19:49 : client: [51] closed
+May 10 19:49 : client: [52] opened from 127.0.0.1:46768
+May 10 19:49 : client: [52] closed
+May 10 19:49 : client: [53] opened from 127.0.0.1:46770
+May 10 19:50 : client: [53] closed
+May 10 19:50 : client: [54] opened from 127.0.0.1:46772
+May 10 19:51 : client: [55] opened from 127.0.0.1:46824
+May 10 19:51 : player: played "My Bloody Valentine/Studio Albums/1991 - Loveless (Sire, 9 26759-2. CD)/11 Soon.flac"
+May 10 19:51 : client: [55] closed
+May 10 19:54 : client: [54] closed
+May 10 19:54 : client: [56] opened from 127.0.0.1:46864
+May 10 19:54 : client: [56] closed
+May 10 19:54 : client: [57] opened from 127.0.0.1:46866
+May 10 19:55 : client: [57] closed
+May 10 19:55 : client: [58] opened from 127.0.0.1:46868
+May 10 19:55 : client: [58] closed
+May 10 19:55 : client: [59] opened from 127.0.0.1:46870
+May 10 19:55 : client: [59] closed
+May 10 19:55 : client: [60] opened from 127.0.0.1:46888
+May 10 19:55 : client: [60] closed
+May 10 19:55 : client: [61] opened from 127.0.0.1:46890
+May 10 19:56 : client: [61] closed
+May 10 19:56 : client: [62] opened from 127.0.0.1:46894
+May 10 19:56 : client: [62] closed
+May 10 19:56 : client: [63] opened from 127.0.0.1:46896
+May 10 19:56 : player: played "My Bloody Valentine/Studio Albums/2013 - m b v (mbv records, mbv cd 01. CD)/01 She Found Now.flac"
+May 10 19:56 : client: [63] closed
+May 10 19:56 : client: [64] opened from 127.0.0.1:46898
+May 10 19:57 : client: [64] closed
+May 10 19:57 : client: [65] opened from 127.0.0.1:46900
+May 10 19:57 : client: [65] closed
+May 10 19:57 : client: [66] opened from 127.0.0.1:46902
+May 10 19:58 : client: [66] closed
+May 10 19:58 : client: [67] opened from 127.0.0.1:46904
+May 10 19:58 : client: [67] closed
+May 10 19:58 : client: [68] opened from 127.0.0.1:46906
+May 10 19:58 : client: [68] closed
+May 10 19:58 : client: [69] opened from 127.0.0.1:46908
+May 10 19:59 : client: [69] closed
+May 10 19:59 : client: [70] opened from 127.0.0.1:46910
+May 10 22:17 : client: [16] closed
+May 10 22:18 : client: [70] closed
+May 10 22:18 : client: [71] opened from 127.0.0.1:47004
+May 10 22:20 : player: played "My Bloody Valentine/Studio Albums/2013 - m b v (mbv records, mbv cd 01. CD)/02 Only Tomorrow.flac"
+May 11 09:19 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 11 09:19 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 11 09:19 : client: [0] opened from 127.0.0.1:58984
+May 11 09:39 : client: [0] closed
+May 11 09:39 : client: [1] opened from 127.0.0.1:59562
+May 11 09:39 : client: [1] closed
+May 11 09:39 : client: [2] opened from 127.0.0.1:59564
+May 11 09:45 : client: [2] closed
+May 11 09:45 : client: [3] opened from 127.0.0.1:59660
+May 11 09:46 : client: [4] opened from 127.0.0.1:59666
+May 11 09:51 : client: [3] closed
+May 11 09:51 : client: [5] opened from 127.0.0.1:59712
+May 11 09:51 : client: [5] closed
+May 11 09:51 : client: [6] opened from 127.0.0.1:59714
+May 11 09:57 : client: [6] closed
+May 11 09:57 : client: [7] opened from 127.0.0.1:59786
+May 11 09:57 : client: [7] closed
+May 11 09:57 : client: [8] opened from 127.0.0.1:59788
+May 11 09:57 : client: [8] closed
+May 11 09:57 : client: [9] opened from 127.0.0.1:59790
+May 11 10:00 : client: [9] closed
+May 11 10:00 : client: [10] opened from 127.0.0.1:59798
+May 11 10:00 : client: [10] closed
+May 11 10:00 : client: [11] opened from 127.0.0.1:59800
+May 11 10:00 : client: [4] closed
+May 11 10:00 : client: [12] opened from 127.0.0.1:59802
+May 11 10:03 : client: [11] closed
+May 11 10:03 : client: [13] opened from 127.0.0.1:59838
+May 11 10:03 : client: [13] closed
+May 11 10:03 : client: [14] opened from 127.0.0.1:59840
+May 11 10:06 : client: [14] closed
+May 11 10:06 : client: [15] opened from 127.0.0.1:59852
+May 11 10:06 : client: [15] closed
+May 11 10:06 : client: [16] opened from 127.0.0.1:59854
+May 11 10:07 : client: [16] closed
+May 11 10:07 : client: [17] opened from 127.0.0.1:59856
+May 11 10:07 : client: [17] closed
+May 11 10:07 : client: [18] opened from 127.0.0.1:59858
+May 11 10:07 : client: [12] closed
+May 11 10:07 : client: [19] opened from 127.0.0.1:59860
+May 11 10:07 : client: [18] closed
+May 11 10:07 : client: [20] opened from 127.0.0.1:59862
+May 11 10:07 : client: [20] closed
+May 11 10:07 : client: [21] opened from 127.0.0.1:59864
+May 11 10:14 : client: [21] closed
+May 11 10:14 : client: [22] opened from 127.0.0.1:59906
+May 11 10:15 : client: [22] closed
+May 11 10:15 : client: [23] opened from 127.0.0.1:59908
+May 11 10:15 : client: [19] closed
+May 11 10:15 : client: [24] opened from 127.0.0.1:59910
+May 11 10:17 : client: [23] closed
+May 11 10:17 : client: [25] opened from 127.0.0.1:59926
+May 11 10:17 : client: [24] closed
+May 11 10:17 : client: [26] opened from 127.0.0.1:59928
+May 11 10:18 : client: [25] closed
+May 11 10:18 : client: [27] opened from 127.0.0.1:59930
+May 11 10:18 : client: [26] closed
+May 11 10:18 : client: [28] opened from 127.0.0.1:59932
+May 11 10:19 : client: [27] closed
+May 11 10:19 : client: [29] opened from 127.0.0.1:59944
+May 11 10:19 : client: [28] closed
+May 11 10:19 : client: [30] opened from 127.0.0.1:59946
+May 11 10:20 : client: [29] closed
+May 11 10:20 : client: [31] opened from 127.0.0.1:59950
+May 11 10:20 : client: [30] closed
+May 11 10:20 : client: [32] opened from 127.0.0.1:59952
+May 11 10:50 : client: [31] closed
+May 11 10:50 : client: [33] opened from 127.0.0.1:60132
+May 11 10:50 : client: [32] closed
+May 11 10:50 : client: [34] opened from 127.0.0.1:60134
+May 11 10:51 : client: [33] closed
+May 11 10:51 : client: [35] opened from 127.0.0.1:60138
+May 11 10:56 : client: [35] closed
+May 11 10:56 : client: [36] opened from 127.0.0.1:60146
+May 11 10:56 : client: [34] closed
+May 11 10:56 : client: [37] opened from 127.0.0.1:60150
+May 11 10:57 : client: [36] closed
+May 11 10:57 : client: [38] opened from 127.0.0.1:60198
+May 11 10:57 : client: [37] closed
+May 11 10:57 : client: [39] opened from 127.0.0.1:60200
+May 11 11:18 : client: [38] closed
+May 11 11:18 : client: [40] opened from 127.0.0.1:60356
+May 11 11:20 : client: [40] closed
+May 11 11:20 : client: [41] opened from 127.0.0.1:60388
+May 11 11:29 : client: [41] closed
+May 11 11:29 : client: [42] opened from 127.0.0.1:60552
+May 11 11:29 : client: [39] closed
+May 11 11:29 : client: [43] opened from 127.0.0.1:60554
+May 11 11:30 : client: [42] closed
+May 11 11:30 : client: [44] opened from 127.0.0.1:60556
+May 11 11:30 : client: [43] closed
+May 11 11:30 : client: [45] opened from 127.0.0.1:60558
+May 11 11:30 : client: [44] closed
+May 11 11:30 : client: [46] opened from 127.0.0.1:60560
+May 11 11:30 : client: [45] closed
+May 11 11:30 : client: [47] opened from 127.0.0.1:60562
+May 11 11:42 : client: [46] closed
+May 11 11:42 : client: [48] opened from 127.0.0.1:60728
+May 11 11:42 : client: [47] closed
+May 11 11:42 : client: [49] opened from 127.0.0.1:60730
+May 11 11:46 : client: [48] closed
+May 11 11:46 : client: [50] opened from 127.0.0.1:60788
+May 11 11:46 : client: [49] closed
+May 11 11:46 : client: [51] opened from 127.0.0.1:60790
+May 11 11:47 : client: [50] closed
+May 11 11:47 : client: [52] opened from 127.0.0.1:60792
+May 11 11:48 : client: [52] closed
+May 11 11:48 : client: [53] opened from 127.0.0.1:60812
+May 11 11:49 : client: [53] closed
+May 11 11:49 : client: [54] opened from 127.0.0.1:60814
+May 11 11:51 : client: [54] closed
+May 11 11:51 : client: [55] opened from 127.0.0.1:60830
+May 11 11:54 : client: [55] closed
+May 11 11:54 : client: [56] opened from 127.0.0.1:60850
+May 11 11:55 : client: [56] closed
+May 11 11:55 : client: [57] opened from 127.0.0.1:60852
+May 11 11:55 : client: [57] closed
+May 11 11:55 : client: [58] opened from 127.0.0.1:60854
+May 11 11:55 : client: [58] closed
+May 11 11:55 : client: [59] opened from 127.0.0.1:60856
+May 11 11:55 : client: [59] closed
+May 11 11:55 : client: [60] opened from 127.0.0.1:60858
+May 11 11:55 : client: [51] closed
+May 11 11:55 : client: [61] opened from 127.0.0.1:60860
+May 11 11:56 : client: [60] closed
+May 11 11:56 : client: [62] opened from 127.0.0.1:60862
+May 11 11:56 : client: [62] closed
+May 11 11:56 : client: [63] opened from 127.0.0.1:60864
+May 11 11:56 : client: [61] closed
+May 11 11:57 : client: [63] closed
+May 11 11:57 : client: [64] opened from 127.0.0.1:60868
+May 11 11:57 : client: [64] closed
+May 11 11:57 : client: [65] opened from 127.0.0.1:60878
+May 11 11:57 : client: [65] closed
+May 11 11:57 : client: [66] opened from 127.0.0.1:60880
+May 11 11:58 : client: [66] closed
+May 11 11:58 : client: [67] opened from 127.0.0.1:60888
+May 11 11:58 : client: [67] closed
+May 11 11:58 : client: [68] opened from 127.0.0.1:60890
+May 11 11:58 : client: [68] closed
+May 11 11:58 : client: [69] opened from 127.0.0.1:60892
+May 11 11:58 : client: [69] closed
+May 11 11:58 : client: [70] opened from 127.0.0.1:60894
+May 11 12:44 : player: played "My Bloody Valentine/Studio Albums/2013 - m b v (mbv records, mbv cd 01. CD)/02 Only Tomorrow.flac"
+May 11 15:18 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 11 15:18 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 11 15:18 : client: [0] opened from 127.0.0.1:50770
+May 11 15:29 : client: [1] opened from 127.0.0.1:50916
+May 11 15:29 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 11 15:34 : player: played "My Bloody Valentine/Studio Albums/1991 - Loveless (Sire, 9 26759-2. CD)/05 When You Sleep.flac"
+May 11 22:07 : client: [0] closed
+May 11 22:07 : client: [2] opened from 127.0.0.1:51062
+May 11 22:07 : client: [2] closed
+May 11 22:07 : client: [3] opened from 127.0.0.1:51064
+May 11 22:09 : client: [3] closed
+May 11 22:09 : client: [4] opened from 127.0.0.1:51066
+May 11 22:09 : client: [4] closed
+May 11 22:09 : client: [5] opened from 127.0.0.1:51068
+May 11 22:12 : client: [1] closed
+May 11 22:12 : player: played "My Bloody Valentine/Studio Albums/1991 - Loveless (Sire, 9 26759-2. CD)/06 I Only Said.flac"
+May 12 11:32 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 12 11:32 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 12 11:32 : client: [0] opened from 127.0.0.1:39256
+May 12 11:39 : client: [1] opened from 127.0.0.1:39462
+May 12 11:40 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 12 11:44 : player: played "My Bloody Valentine/Studio Albums/1991 - Loveless (Sire, 9 26759-2. CD)/07 Come In Alone.flac"
+May 12 11:49 : player: played "My Bloody Valentine/Studio Albums/1991 - Loveless (Sire, 9 26759-2. CD)/08 Sometimes.flac"
+May 12 11:52 : player: played "My Bloody Valentine/Studio Albums/1991 - Loveless (Sire, 9 26759-2. CD)/09 Blown A Wish.flac"
+May 12 11:58 : player: played "My Bloody Valentine/Studio Albums/1991 - Loveless (Sire, 9 26759-2. CD)/10 What You Want.flac"
+May 12 12:05 : player: played "My Bloody Valentine/Studio Albums/1991 - Loveless (Sire, 9 26759-2. CD)/11 Soon.flac"
+May 12 12:16 : player: played "My Bloody Valentine/Studio Albums/2013 - m b v (mbv records, mbv cd 01. CD)/01 She Found Now.flac"
+May 12 12:22 : player: played "My Bloody Valentine/Studio Albums/2013 - m b v (mbv records, mbv cd 01. CD)/02 Only Tomorrow.flac"
+May 12 12:29 : player: played "My Bloody Valentine/Studio Albums/2013 - m b v (mbv records, mbv cd 01. CD)/03 Who Sees You.flac"
+May 12 12:55 : client: [1] closed
+May 12 19:06 : player: played "My Bloody Valentine/Studio Albums/2013 - m b v (mbv records, mbv cd 01. CD)/04 Is This And Yes.flac"
+May 13 11:53 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 13 11:53 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 13 11:53 : client: [0] opened from 127.0.0.1:34790
+May 13 12:38 : client: [0] closed
+May 13 12:38 : client: [1] opened from 127.0.0.1:35190
+May 13 18:28 : player: played "My Bloody Valentine/Studio Albums/2013 - m b v (mbv records, mbv cd 01. CD)/04 Is This And Yes.flac"
+May 14 08:21 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 14 08:21 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 14 08:21 : client: [0] opened from 127.0.0.1:47834
+May 14 09:04 : player: played "My Bloody Valentine/Studio Albums/2013 - m b v (mbv records, mbv cd 01. CD)/04 Is This And Yes.flac"
+May 14 13:48 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 14 13:48 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 14 13:48 : client: [0] opened from 127.0.0.1:54266
+May 14 14:34 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 14 14:34 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 14 14:34 : client: [0] opened from 127.0.0.1:40670
+May 14 22:40 : player: played "My Bloody Valentine/Studio Albums/2013 - m b v (mbv records, mbv cd 01. CD)/04 Is This And Yes.flac"
+May 15 14:47 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 15 14:47 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 15 14:47 : client: [0] opened from 127.0.0.1:45706
+May 15 19:28 : player: played "My Bloody Valentine/Studio Albums/2013 - m b v (mbv records, mbv cd 01. CD)/04 Is This And Yes.flac"
+May 15 20:33 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 15 20:33 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 15 20:33 : client: [0] opened from 127.0.0.1:49574
+May 15 21:42 : client: [0] closed
+May 15 21:42 : client: [1] opened from 127.0.0.1:49772
+May 15 21:43 : client: [1] closed
+May 15 21:43 : client: [2] opened from 127.0.0.1:49774
+May 15 21:44 : client: [2] closed
+May 15 21:44 : client: [3] opened from 127.0.0.1:49776
+May 15 21:47 : client: [3] closed
+May 15 21:47 : client: [4] opened from 127.0.0.1:49780
+May 15 21:52 : client: [4] closed
+May 15 21:52 : client: [5] opened from 127.0.0.1:49784
+May 15 21:53 : client: [5] closed
+May 15 21:53 : client: [6] opened from 127.0.0.1:49786
+May 15 21:55 : client: [6] closed
+May 15 21:55 : client: [7] opened from 127.0.0.1:49788
+May 15 21:55 : client: [7] closed
+May 15 21:56 : client: [8] opened from 127.0.0.1:49790
+May 15 21:56 : client: [8] closed
+May 15 21:56 : client: [9] opened from 127.0.0.1:49792
+May 15 21:56 : client: [9] closed
+May 15 21:56 : client: [10] opened from 127.0.0.1:49794
+May 15 21:56 : client: [10] closed
+May 15 21:56 : client: [11] opened from 127.0.0.1:49796
+May 15 21:58 : client: [11] closed
+May 15 21:58 : client: [12] opened from 127.0.0.1:49798
+May 15 21:59 : client: [12] closed
+May 15 21:59 : client: [13] opened from 127.0.0.1:49800
+May 15 22:00 : client: [13] closed
+May 15 22:00 : client: [14] opened from 127.0.0.1:49802
+May 15 22:00 : client: [14] closed
+May 15 22:01 : player: played "My Bloody Valentine/Studio Albums/2013 - m b v (mbv records, mbv cd 01. CD)/04 Is This And Yes.flac"
+May 16 15:23 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 16 15:23 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 16 15:23 : client: [0] opened from 127.0.0.1:33492
+May 16 15:44 : player: played "My Bloody Valentine/Studio Albums/2013 - m b v (mbv records, mbv cd 01. CD)/04 Is This And Yes.flac"
+May 16 15:45 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 16 15:45 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 16 15:45 : client: [0] opened from 127.0.0.1:55366
