@@ -17,6 +17,7 @@
 
 
 set $mod Mod4
+set $mod2 Mod1
 font pango:Terminus 32
 gaps inner 20
 gaps outer 20
@@ -27,11 +28,11 @@ bindsym $mod+F12 exec i3lock -c 000000
 floating_modifier $mod
 
 # enter fullscreen mode for the focused container
-bindsym $mod+Shift+f fullscreen toggle
+bindsym $mod+f fullscreen toggle
 
 # container layout 
-bindsym $mod+w layout stacking
-bindsym $mod+e layout tabbed
+# bindsym $mod+w layout stacking
+# bindsym $mod+e layout tabbed
 bindsym $mod+r layout toggle split
 
 # toggle tiling / floating
@@ -46,7 +47,7 @@ bindsym $mod+space focus mode_toggle
 # focus the child container
 #bindsym $mod+d focus child
 
-bindsym $mod+Return exec terminator
+bindsym $mod+Return exec urxvt 
 bindsym $mod+q kill
 
 # exit i3 (logs you out of your X session)
@@ -75,7 +76,7 @@ exec --no-startup-id unclutter
 exec --no-startup-id feh --bg-scale ~/pix/papes/flowers/wa3.jpg
 exec mpd
 exec firefox
-exec --no-startup-id terminator
+exec --no-startup-id urxvt -e tmux
 
 ## ------ ##+ program launcher +## ------ ##
 
@@ -131,16 +132,15 @@ client.urgent           $c3     $c3     $fg  $c3       $c3
 
 # window rules
 assign [class=Firefox] 1
-assign [class=Terminator] 2
+assign [class=URxvt] 2
 assign [class=Transmission-gtk] 3
 #assign [class=zathura] 4
 assign [class=Pcmanfm] 5
 for_window [class=feh|Lxappearance|mpv|System-config-printer.py] floating enable
 for_window [class=mpv] sticky enable
 for_window [class=feh] resize set 1280 720
-for_window [class=mpv] border pixel 0
+for_window [class=Firefox|mpv|feh] border pixel 0
 for_window [class=feh] move position center
-default_floating_border pixel 0
 
 
 ## ------ ##+ workspaces +## ------ ##
@@ -261,15 +261,15 @@ mode "$mode_log_off" {
 
 
 # change volume
-bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume 0 +5% 
-bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume 0 -5% 
-bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute 0 toggle 
+bindsym $mod+F9 exec --no-startup-id pactl set-sink-volume 0 +5% 
+bindsym $mod+F10 exec --no-startup-id pactl set-sink-volume 0 -5% 
+bindsym $mod+F11 exec --no-startup-id pactl set-sink-mute 0 toggle 
  
-# cmus controls
-bindsym XF86AudioPlay exec cmus-remote -p
-bindsym XF86AudioStop exec cmus-remote -s
-bindsym XF86AudioPrev exec cmus-remote -r
-bindsym XF86AudioNext exec cmus-remote -n
+# mpd controls
+bindsym $mod2+F9 exec mpc play
+bindsym $mod2+F10 exec mpc pause
+bindsym $mod2+F11 exec mpc next
+bindsym $mod2+F12 exec mpc prev
 
 
 
